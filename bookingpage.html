@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Booking Form  </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="path/to/css/smart-forms.css">
+	<link rel="stylesheet" href="path/to/css/font-awesome.min.css">	   
+  </head>
+  <body>
+  <div class="smart-wrap">
+  <div class="smart-forms smart-container wrap-2">
+  
+    <div class="form-header header-primary">
+      <h4><i class="fa fa-calendar"></i>Make Movie Ticket Booking in Minutes</h4>
+    </div>
+    
+    <form method="post" action="/" id="booking-form">
+      <div class="form-body">
+	<label for="appt">Choose a time for your movie:</label>
+	<tr> 
+<td>Time:</td> 
+<td>
+<select id="item1">
+<option value="1">--Select Time:--</option> 
+<option value="2">2:30PM</option> 
+<option value="3">11:00AM</option> 
+<option value="4">01:00PM</option> 
+<option value="5">12:30PM</option> 
+<option value="6 ">04:00PM</option> 
+</select>
+</td> 
+
+
+
+<small>Movie  hours are 9am to 12pm</small>
+
+      
+  <div class="section">
+  <label for="guestname" class="field-label">Please Enter Your Name</label>
+  <label for="guestname" class="field prepend-icon">
+    <input type="text" name="guestname" id="guestname" class="gui-input" required="" placeholder="John Doe/Jane Doe">
+    <span class="field-icon"><i class="fa fa-user"></i></span>  
+  </label>
+</div>
+              
+<div class="frm-row">
+  <div class="section colm colm6">
+    <label for="guestemail" class="field-label">Email Address</label>
+    <label for="guestemail" class="field prepend-icon">
+      <input type="email" name="guestemail" id="guestemail" class="gui-input" required="" placeholder="john@something.com">
+      <span class="field-icon"><i class="fa fa-envelope"></i></span>  
+    </label>
+  </div>
+  
+  <div class="section colm colm6">
+    <label for="guestelephone" class="field-label">Telephone / Mobile</label>
+    <label for="guestelephone" class="field prepend-icon">
+      <input type="text" name="guestelephone" id="guestelephone" class="gui-input" required="" placeholder="Telephone / Moble Number">
+      <span class="field-icon"><i class="fa fa-phone-square"></i></span>  
+    </label>
+  </div>
+</div>
+
+<div class="frm-row">
+  <div class="section colm colm6">
+    <label for="adults" class="field-label">Number of people</label>
+    <label for="adults" class="field prepend-icon">
+      <input type="number" id="adults" name="adults" class="gui-input" required="" placeholder="Number of Tickets">
+      <span class="field-icon"><i class="fa fa-users"></i></span>  
+    </label>
+  </div>
+  
+  
+</div>
+
+
+  <div class="section colm colm6">
+    <label for="checkout" class="field-label"> Date</label>
+    <label for="checkout" class="field prepend-icon">
+      <input type="text" id="checkout" name="checkout" class="gui-input" required="" placeholder="dd/mm/yyyy">
+      <span class="field-icon"><i class="fa fa-calendar"></i></span>  
+    </label>
+  </div>
+</div>
+
+<div class="spacer-t20 spacer-b30">
+  <div class="tagline"><span>Please answer these questions for a pleasant stay</span></div>
+</div>
+
+<div class="frm-row">
+  <div class="option-group field">
+  
+    
+        
+    
+              
+  </div>
+</div>
+
+
+
+<div class="section">
+  <label for="comment" class="field-label">Anything else we should know about?</label>
+  <label for="comment" class="field prepend-icon">
+    <textarea class="gui-textarea" id="comment" name="comment" placeholder="Let us know about any special accommodation needs"></textarea>
+    <span class="field-icon"><i class="fa fa-comments"></i></span>
+    <span class="input-hint"> 
+      <strong>Please:</strong> Be as descriptive as possible
+    </span>   
+  </label>
+</div>
+</div>
+      <div class="form-footer">
+        <button type="submit" class="button btn-primary"><a href='seat.html'>Confirm Booking</a></button>
+        <button type="reset" class="button">Cancel</button>
+      </div>
+      
+    </form>
+
+</body>
+<style>
+body {
+  background-image: url('back - Copy.jfif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+</html>
